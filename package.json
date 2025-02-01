@@ -1,0 +1,15 @@
+{
+  "name": "game-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/esbuild game/index.js --bundle --outdir=dist",
+    "watch": "./node_modules/.bin/esbuild game/index.js --bundle --outdir=dist --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.24.2"
+  }
+}
